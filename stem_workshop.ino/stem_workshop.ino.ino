@@ -6,14 +6,19 @@ const byte EB = 6;
 const byte IB = 8;
 const byte IB2 = 7;
 
-const byte decrease_right_motor_speed = 10;
+//offset of motors
+const byte decrease_right_motor_speed = 0;
 const byte decrease_left_motor_speed = 0;
 
 void loop() {
+// Write Code Here
+
+
+
+//Example Code:
 //  controlMotor ( 255 , 255 ); 
-//  delay(1000);
-//  controlMotor ( -255 , -255 ); 
-//  delay(1000);
+//  delay(3000);
+
 }
 
 void setup() {
